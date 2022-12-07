@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang+="en">
+<head>
+  <link href="./styles.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset ="UTF-8"/>
+  <script>
+    // Check if pageCounter cookie exists
+    if (document.cookie.indexOf('pageCounter=') === -1) {
+      // If cookie doesn't exist, set initial value to 1
+      document.cookie = 'pageCounter=1';
+    } else {
+      // If cookie exists, get the current value
+      var cookieValue = parseInt(document.cookie.split('pageCounter=')[1]);
+      // Increment the value by 1
+      cookieValue += 1;
+      // Update the cookie with the new value
+      document.cookie = 'pageCounter=' + cookieValue;
+    }
+
+    // Get the current value of the pageCounter cookie
+    var currentValue = parseInt(document.cookie.split('pageCounter=')[1]);
+  </script>
+  <title>Olufemi Adeniyi - Cloud DevOps Engineer</title>
+</head>
+<body>
+  <h1>Olufemi Adeniyi</h1>
+  <p>Email: olufemiphilips@outlook.com</p>
+  <p>Phone: +2347030656762</p>
+
+  <h2>Summary</h2>
+  <p>Analytical, results oriented, Law graduate with a strong interest in technology 
+    and a background in project management seeking an entry-level cloud DevOps engineer position. Skilled in Python and AWS with a good understanding of DevOps principles and practices, with
+    hands-on experience troubleshooting systems and network administration issues. 
+  </p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Cloud platforms: AWS, GCP</li>
+    <li>Networking: DNS, DHCP, VPN</li>
+    <li>Containerization: Docker and Kubernetes</li>
+    <li>Programming languages: Python</li>
+    <li>Scripting: Bash</li>
+    <li>Operating System: Linux (Ubuntu, RedHat, CentOS</li>
+    <li>Web Development: HTML and CSS</li>
+    <li>Project management</li>
+    <li>Communication and teamwork: GIT</li>
+  </ul>
+
+  <h2>Experience</h2>
+  <h3>IT Support, Double Diamond Global Resources (January-September 2022)</h3>
+  <ul>
+    <li>Technical Troubleshooting</li>
+    <li>Worked on a team to manage and deliver a large-scale project</li>
+    <li>Developed and maintained project documentation and schedules</li>
+  </ul>
+  <h3>Technology Enthusiast, Home-Lab</h3>
+  <ul>
+    <li>Completed online courses in Python and AWS</li>
+    <li>Built and deployed this resume using Html and css, javascript and AWS </li>
+    <li>Contributing to Open source <a href="openupthecloud/open-cloud-dev-box" target="_blank">OpenCloudDevBox</a></li>
+    <li>Participated in online forums and communities to learn about cloud computing and DevOps</li>
+  </ul>
+  <h3>Certifications</h3>
+  <ul>
+    <li>AWS Certified Cloud Practitioner</li>
+    <li>FreeCodeCamp: REsponsive Web Design</li>
+    <li>KodeKloud: Terraform Basics Training Course</li>
+  </ul>
+
+  <h2>Education</h2>
+  <p>Juris Doctor, University of Law (September 2015-May 2018)</p>
+  <h3>Relevant coursework:</h3>
+  <ul>
+    <li>Technology Law</li>
+    <li>Contracts</li>
+    <li>Business Law</li>
+  </ul>
+
+  <h2>Additional</h2>
+  <ul>
+    <li>Completed online courses: "Introduction to Python" (2021), "AWS Fundamentals" (2021)</li>
+    <li>Personal website: <a href="https://janedoe.com">janedoe.com</a></li>
+  </ul>
+</body>
+</html>
+
